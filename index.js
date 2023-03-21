@@ -122,9 +122,10 @@ else
     console.log("Number is not divisible by 2 or 3")
 }
 */
-
+/*
 //video 9(for loop)
 //sum of n natural numbers
+
 const prompt =require("prompt-sync")();// importing
 let sum =0
 let n = prompt("Enter the value of n")
@@ -148,7 +149,28 @@ do{
     console.log("Do while loop output",i)
     
 }while(i<n)
+*/
+//function
+//tradtional way to writ function
+const prompt =require("prompt-sync")();// importing
+let first_number = prompt("Enter number")
+//first_number = Number.parseInt(first_number)
+let second_number  = 10
+//second_number = Number.parseInt(second_number)
+function average_num(x,y){
+    x= Number.parseInt(x)
+    y= Number.parseInt(y)
+    return ((x + y) / 2);
+}
+//advance way of writting function
+const summation_of_numbers = (x,y)=>{
+    x= Number.parseInt(x)
+    y= Number.parseInt(y)
+    console.log("Check the sum of number")
+    return(x+y);
+}
 
+console.log("average of number",average_num(first_number,second_number));
+console.log(summation_of_numbers(first_number,second_number));
 
-
-
+//video12
