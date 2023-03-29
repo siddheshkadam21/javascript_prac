@@ -217,7 +217,7 @@ console.log(`Enter "${ln}"${fn.includes(ln)? ' middle name ': 'DOB'} Submit`); /
 let srt = "The given amount is 25000";
 let amount = Number.parseInt(srt.slice("The given amount is".length));
 console.log(amount);
-console.log(typeof amount)
+console.log(typeof amount);
 
 //as string is immutable it won't change
 let friend = "Elon"
