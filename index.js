@@ -189,7 +189,7 @@ const mean = (a,b,c) =>{
     return (a+b+c)/3
 };
 console.log(mean(2,2,2));
-*/
+
 //string- inserting in sentence using back strick
 //srting interpulation
 //string is immutable
@@ -223,5 +223,9 @@ console.log(typeof amount);
 let friend = "Elon"
 friend[2] = "M"
 console.log(friend)
-
+*/
 //video16 - Array
+let year = [1,2,3,4,5,6,7,8,9,"ten"]
+console.log(year)
+console.log(year[2])// indexcing
+console.log(typeof(year)) 
